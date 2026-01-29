@@ -1,16 +1,174 @@
-# React + Vite
+# Bulkan 🐾  
+**Wildlife Awareness Landing Page**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Bulkan is a single-page educational website focused on raising awareness about endangered animal species and wildlife protection.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+This project is intentionally built as a **junior-level React application** with a strong focus on **HTML, CSS, and UI structure**, while using only core React fundamentals.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+##  Project Goals
+
+
+- Showcase strong HTML & CSS skills
+- Practice core React concepts (components, props, basic state)
+- Build a clean and readable component structure
+- Avoid over-engineering and advanced React patterns
+- Create a long, structured landing page similar to real-world websites
+
+
+---
+
+
+##  Technical Overview
+
+
+### Technologies Used
+- React (with Vite)
+- JavaScript (ES6)
+- Pure CSS (no frameworks, no libraries)
+
+
+
+
+These limitations are intentional to reflect a **learning-stage React developer** while keeping the code easy to read and understand.
+
+
+---
+
+
+##  Styling & UI
+
+
+- Pure CSS (one CSS file per component)
+- Strong focus on:
+  - Layout
+  - Spacing
+  - Typography
+  - Visual hierarchy
+- CSS animations and transitions:
+  - Section entrance effects
+  - Button hover states
+  - Card interactions
+- Nature-inspired color palette (green tones, soft backgrounds)
+
+
+No CSS frameworks or third-party styling tools were used.
+
+
+---
+
+
+##  Project Structure
+
+
+
+
+
+src/
+├── components/
+│ ├── layout/
+│ │ ├── Header/
+│ │ └── Footer/
+│ └── sections/
+│ ├── HeroSection/
+│ ├── AboutProject/
+│ ├── MissionSection/
+│ ├── ThreatsSection/
+│ ├── AnimalsSection/
+│ ├── ImpactSection/
+│ ├── GetInvolvedSection/
+│ └── NewsletterSection/
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+Plain text
+ANTLR4
+Bash
+C
+C#
+CSS
+CoffeeScript
+CMake
+Dart
+Django
+Docker
+EJS
+Erlang
+Git
+Go
+GraphQL
+Groovy
+HTML
+Java
+JavaScript
+JSON
+JSX
+Kotlin
+LaTeX
+Less
+Lua
+Makefile
+Markdown
+MATLAB
+Markup
+Objective-C
+Perl
+PHP
+PowerShell
+.properties
+Protocol Buffers
+Python
+R
+Ruby
+Sass (Sass)
+Sass (Scss)
+Scheme
+SQL
+Shell
+Swift
+SVG
+TSX
+TypeScript
+WebAssembly
+YAML
+XML
+
+
+
+This structure is designed to be:
+- Clean and understandable
+- Easy to navigate for reviewers
+- Appropriate for junior-level React projects
+
+
+
+
+---
+
+
+## 🚧 Project Status
+
+
+This project is **educational** and not production-ready.
+
+
+Planned future improvements:
+- Refactoring repeated JSX with reusable components
+- Improving accessibility
+- Adding responsiveness refinements
+
+
+---
+
+
+## 📄 Disclaimer
+
+
+This project was created for **learning and portfolio purposes** to demonstrate frontend fundamentals and early-stage React knowledge.
+
