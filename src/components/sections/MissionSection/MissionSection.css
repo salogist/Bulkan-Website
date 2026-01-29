@@ -1,0 +1,37 @@
+.mission-section {
+    background-color: var(--secondary-color);
+    padding: 80px 0;
+}
+
+.mission-content {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 30px;
+}
+
+.mission-item {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mission-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+}
+
+.mission-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+}
+
+.mission-item p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--text-color);
+}
